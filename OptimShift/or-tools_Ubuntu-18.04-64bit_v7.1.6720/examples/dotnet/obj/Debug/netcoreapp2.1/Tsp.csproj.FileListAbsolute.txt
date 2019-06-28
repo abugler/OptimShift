@@ -1,0 +1,11 @@
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.Tsp.deps.json
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.Tsp.runtimeconfig.json
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.Tsp.runtimeconfig.dev.json
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.Tsp.dll
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.Tsp.pdb
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Tsp.csprojAssemblyReference.cache
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Tsp.csproj.CoreCompileInputs.cache
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Tsp.AssemblyInfoInputs.cache
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Tsp.AssemblyInfo.cs
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Google.OrTools.Tsp.dll
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Google.OrTools.Tsp.pdb

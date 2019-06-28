@@ -1,0 +1,17 @@
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.deps.json
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.runtimeconfig.json
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.runtimeconfig.dev.json
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.dll
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.pdb
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/Scheduling Library.dll
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/bin/Debug/netcoreapp2.2/Scheduling Library.pdb
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.csprojAssemblyReference.cache
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.csproj.CoreCompileInputs.cache
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.AssemblyInfoInputs.cache
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.AssemblyInfo.cs
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.csproj.CopyComplete
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.dll
+/home/andreas/Documents/OptimShift/OptimShift/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.pdb

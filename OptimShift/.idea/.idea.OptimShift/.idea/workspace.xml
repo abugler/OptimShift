@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf828113-6162-4fca-a57f-47348200dd05" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="OptimShift" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1286">
+              <caret line="187" column="13" lean-forward="true" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+              <folding>
+                <marker date="1561314332696" expanded="true" signature="6:103" ph="..." />
+                <marker date="1561314332696" expanded="true" signature="132:8041" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="160:8039" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="274:4943" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="560:712" ph="/* First int is availability ... */" />
+                <marker date="1561314332696" expanded="true" signature="753:913" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="979:1078" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="1143:1853" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="1300:1755" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="1879:2001" ph="/* This function should only be called by Shift.AddEmployee(); ... */" />
+                <marker date="1561314332696" expanded="true" signature="2047:2217" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="2230:2552" ph="/* Helper function for AddShift. Keeps Shifts sorted for easy ... */" />
+                <marker date="1561314332696" expanded="true" signature="2598:3119" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="2872:2949" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="3132:3235" ph="/* Given a Shift Object, how long is the employee working continuously? ... */" />
+                <marker date="1561314332696" expanded="true" signature="3283:4279" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="3522:4208" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="3780:3945" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="4025:4190" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="4329:4707" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="4764:4933" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="4971:6169" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="5265:5472" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="5518:5599" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="5655:6052" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="5735:5925" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="5946:6038" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="6087:6159" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="6284:6647" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="6468:6555" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="6778:8032" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="6982:7057" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="7132:7992" ph="{...}" />
+                <marker date="1561314332696" expanded="true" signature="7618:7903" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+              <folding>
+                <marker date="1561317020926" expanded="true" signature="6:175" ph="..." />
+                <marker date="1561317020926" expanded="true" signature="206:1214" ph="{...}" />
+                <marker date="1561317020926" expanded="true" signature="213:548" ph="/* This is the meat of the algorithm. ... */" />
+                <marker date="1561317020926" expanded="true" signature="581:1212" ph="{...}" />
+                <marker date="1561317020926" expanded="true" signature="652:1206" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/or-tools_Ubuntu-18.04-64bit_v7.1.6720/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestingLibrary/FunctionalityTesting.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="93" />
+              <folding>
+                <marker date="1561253577827" expanded="true" signature="6:111" ph="..." />
+                <marker date="1561253577827" expanded="true" signature="136:1551" ph="{...}" />
+                <marker date="1561253577827" expanded="true" signature="181:1549" ph="{...}" />
+                <marker date="1561253577827" expanded="true" signature="245:401" ph="{...}" />
+                <marker date="1561253577827" expanded="true" signature="474:1542" ph="{...}" />
+                <marker date="1561253577827" expanded="true" signature="931:1052" ph="/* This is Andie, who has a more complex schedule on Mondays. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibraryTesting/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestingLibrary/FunctionalityTesting.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Class1.cs" />
+        <option value="$PROJECT_DIR$/LibraryTesting/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TestingLibrary/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TestingLibrary/FunctionalityTesting.cs" />
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" />
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Solver.cs" />
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="98" />
+    <option name="y" value="41" />
+    <option name="width" value="2462" />
+    <option name="height" value="1399" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="OptimShift" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="OptimShift" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scheduling Library" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf828113-6162-4fca-a57f-47348200dd05" name="Default Changelist" comment="" />
+      <created>1561133356278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561133356278</updated>
+      <workItem from="1561133361100" duration="720000" />
+      <workItem from="1561134148622" duration="1908000" />
+      <workItem from="1561138833686" duration="3332000" />
+      <workItem from="1561214535041" duration="9803000" />
+      <workItem from="1561255758564" duration="4782000" />
+      <workItem from="1561304877628" duration="3318000" />
+      <workItem from="1561310499032" duration="207000" />
+      <workItem from="1561311271532" duration="4091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28161000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="98" y="41" width="2462" height="1399" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49777383" visible="true" weight="0.24094355" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5022262" side_tool="true" weight="0.22072451" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5182547" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.20480855" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.3713268" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LibraryTesting/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <marker date="1561250662306" expanded="true" signature="29:128" ph="{...}" />
+            <marker date="1561250662306" expanded="true" signature="54:126" ph="{...}" />
+            <marker date="1561250662306" expanded="true" signature="69:85" ph="[public]" />
+            <marker date="1561250662306" expanded="true" signature="98:118" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/or-tools_Ubuntu-18.04-64bit_v7.1.6720/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1286">
+          <caret line="187" column="13" lean-forward="true" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+          <folding>
+            <marker date="1561314332696" expanded="true" signature="6:103" ph="..." />
+            <marker date="1561314332696" expanded="true" signature="132:8041" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="160:8039" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="274:4943" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="560:712" ph="/* First int is availability ... */" />
+            <marker date="1561314332696" expanded="true" signature="753:913" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="979:1078" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="1143:1853" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="1300:1755" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="1879:2001" ph="/* This function should only be called by Shift.AddEmployee(); ... */" />
+            <marker date="1561314332696" expanded="true" signature="2047:2217" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="2230:2552" ph="/* Helper function for AddShift. Keeps Shifts sorted for easy ... */" />
+            <marker date="1561314332696" expanded="true" signature="2598:3119" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="2872:2949" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="3132:3235" ph="/* Given a Shift Object, how long is the employee working continuously? ... */" />
+            <marker date="1561314332696" expanded="true" signature="3283:4279" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="3522:4208" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="3780:3945" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="4025:4190" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="4329:4707" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="4764:4933" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="4971:6169" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="5265:5472" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="5518:5599" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="5655:6052" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="5735:5925" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="5946:6038" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="6087:6159" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="6284:6647" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="6468:6555" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="6778:8032" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="6982:7057" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="7132:7992" ph="{...}" />
+            <marker date="1561314332696" expanded="true" signature="7618:7903" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestingLibrary/FunctionalityTesting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="93" />
+          <folding>
+            <marker date="1561253577827" expanded="true" signature="6:111" ph="..." />
+            <marker date="1561253577827" expanded="true" signature="136:1551" ph="{...}" />
+            <marker date="1561253577827" expanded="true" signature="181:1549" ph="{...}" />
+            <marker date="1561253577827" expanded="true" signature="245:401" ph="{...}" />
+            <marker date="1561253577827" expanded="true" signature="474:1542" ph="{...}" />
+            <marker date="1561253577827" expanded="true" signature="931:1052" ph="/* This is Andie, who has a more complex schedule on Mondays. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <marker date="1561317020926" expanded="true" signature="6:175" ph="..." />
+            <marker date="1561317020926" expanded="true" signature="206:1214" ph="{...}" />
+            <marker date="1561317020926" expanded="true" signature="213:548" ph="/* This is the meat of the algorithm. ... */" />
+            <marker date="1561317020926" expanded="true" signature="581:1212" ph="{...}" />
+            <marker date="1561317020926" expanded="true" signature="652:1206" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

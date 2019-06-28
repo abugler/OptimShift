@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling Library", "..\SchedulingLibrary\Scheduling Library\Scheduling Library.csproj", "{B44AD18E-7325-4202-9719-29D0447F5FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingLibrary", "TestingLibrary\TestingLibrary.csproj", "{8E04D8FB-D552-4DE5-BA26-53611FEFFD9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B44AD18E-7325-4202-9719-29D0447F5FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44AD18E-7325-4202-9719-29D0447F5FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44AD18E-7325-4202-9719-29D0447F5FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44AD18E-7325-4202-9719-29D0447F5FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E04D8FB-D552-4DE5-BA26-53611FEFFD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E04D8FB-D552-4DE5-BA26-53611FEFFD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E04D8FB-D552-4DE5-BA26-53611FEFFD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E04D8FB-D552-4DE5-BA26-53611FEFFD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

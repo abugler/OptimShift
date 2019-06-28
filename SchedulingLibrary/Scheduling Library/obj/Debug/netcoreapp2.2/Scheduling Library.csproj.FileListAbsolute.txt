@@ -1,0 +1,9 @@
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.deps.json
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.dll
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.pdb
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csprojAssemblyReference.cache
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csproj.CoreCompileInputs.cache
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.AssemblyInfoInputs.cache
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.AssemblyInfo.cs
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.dll
+/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.pdb

@@ -1,0 +1,11 @@
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.JobshopSat.deps.json
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.JobshopSat.runtimeconfig.json
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.JobshopSat.runtimeconfig.dev.json
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.JobshopSat.dll
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/bin/Debug/netcoreapp2.1/Google.OrTools.JobshopSat.pdb
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/JobshopSat.csprojAssemblyReference.cache
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/JobshopSat.csproj.CoreCompileInputs.cache
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/JobshopSat.AssemblyInfoInputs.cache
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/JobshopSat.AssemblyInfo.cs
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Google.OrTools.JobshopSat.dll
+/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/Debug/netcoreapp2.1/Google.OrTools.JobshopSat.pdb

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>Scheduling_Library</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Google.OrTools" Version="7.1.6720" />
+      <PackageReference Include="Google.OrTools.runtime.linux-x64" Version="7.1.6720" />
+    </ItemGroup>
+
+</Project>

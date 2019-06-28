@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/JobshopSat.csproj": {}
+  },
+  "projects": {
+    "/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/JobshopSat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/JobshopSat.csproj",
+        "projectName": "Google.OrTools.JobshopSat",
+        "projectPath": "/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/JobshopSat.csproj",
+        "packagesPath": "/home/andreas/.nuget/packages/",
+        "outputPath": "/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/examples/dotnet/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/andreas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "/home/andreas/Documents/OptimShift/or-tools_Ubuntu-18.04-64bit_v7.1.6720/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Google.OrTools": {
+              "target": "Package",
+              "version": "[7.1.*, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
