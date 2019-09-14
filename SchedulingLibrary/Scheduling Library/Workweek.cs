@@ -9,7 +9,8 @@ namespace Scheduling_Library
     {
         private List<Shift> shifts;
         private List<Employee> employees;
-        int MaxCons = 2;
+        private int MaxCons = 2;
+        
         public class Employee
         {
             private string name;
@@ -28,12 +29,17 @@ namespace Scheduling_Library
                 Availabilities = new List<Tuple<int, int>>();
                 minutesWorking = 0;
             }
-
+            /**
+             * Add an availability at the end of the list. 
+             */
             public void UpdateAvailability(int status, int time)
             {
                 Availabilities.Add(new Tuple<int, int>(status, time));
             }
-
+            
+            /**
+             * Is the employee available during the times given?
+             */
             public bool IsAvailable(int StartTime, int EndTime)
             {
                 int time = 0;
@@ -53,7 +59,9 @@ namespace Scheduling_Library
                 throw new Exception("EndTime exceeds employee availability times");
             }
             
-            // Returns lowest availability given a time of the shift
+            /**
+             * Returns lowest availability given a time of the shift
+             */
             public int LowestAvailabilityForShift(int StartTime, int EndTime)
             {
                 int time = 0;
@@ -71,150 +79,42 @@ namespace Scheduling_Library
                 }
                 throw new Exception("EndTime exceeds employee availability times");
             }
-            
             /**
-             * This function should only be called by Shift.AddEmployee();
-             * Adds a Shift
+             * Getter method, returns name
              */
-            public void AddShift(Shift shift)
-            {
-                shifts.Add(shift);
-                minutesWorking += shift.WorkTime();
-                ShiftInsertionSort();
-            }
-            
-            /**
-             * Helper function for AddShift. Keeps Shifts sorted for easy binarySearch
-             * InsertionSort is Preferred over QuickSort, as an Item will be placed at the end of the list,
-             * and only that item will be out of place. This make InsertionSort O(n), as opposed to QuickSorts O(n log(n))
-             */
-            private void ShiftInsertionSort()
-            {
-                if (shifts.Count < 2)
-                    return;
-                int CurrentComparison = shifts.Count - 1;
-                Shift last = shifts[shifts.Count - 1];
-                while (shifts[CurrentComparison - 1].StartTime > last.StartTime)
-                {
-                    CurrentComparison--;
-                }
-
-                Shift temp = last;
-                shifts[shifts.Count - 1] = shifts[CurrentComparison];
-                shifts[CurrentComparison] = temp;
-            }
-            /**
-             * Given a Shift Object, how long is the employee working continuously?
-             */
-            public int ShiftLength(Shift shift)
-            {
-                //Perform Binary Search to find the shift
-                int currentSearch = shifts.Count / 2;
-                int currentIncrement = currentSearch / 2;
-                while (shifts[currentSearch] != shift)
-                {
-                    if(currentIncrement == 0)
-                        throw new ArgumentException("Shift " + shift + " not found for employee " + name + "." );
-                    if (shifts[currentSearch].StartTime < shift.StartTime)
-                    {
-                        currentSearch = currentSearch + currentIncrement;
-                        currentIncrement /= 2;
-                    }
-                    else if (shifts[currentSearch].StartTime > shift.StartTime)
-                    {
-                        currentSearch = currentSearch - currentIncrement;
-                        currentIncrement /= 2;
-                    }
-                }
-                return ShiftLengthHelper(currentSearch);
-            }
-
-            private int ShiftLengthHelper(int index)
-            {
-                int time = shifts[index].WorkTime();
-                for (int i = index - 1; i >= 0; i--)
-                    if (shifts[i].EndTime == shifts[i + 1].StartTime)
-                        time += shifts[i].WorkTime();
-                    else
-                        break;
-                for(int i = index + 1; i < shifts.Count; i++)
-                    if (shifts[i].StartTime == shifts[i - 1].EndTime)
-                        time += shifts[i].WorkTime();
-                    else
-                        break;
-                return time;
-            }
-            
-            public bool IsAcceptableShiftLength(Shift shift)
-            {
-                int shiftLength = ShiftLength(shift);
-                return shiftLength >= MinShiftLength && shiftLength <= MaxShiftLength;
-            }
-
-            /**
-             * Given a time in minutes, find which day that is (Monday - Sunday maps to 0 - 6)
-             * And find out how many continuous shifts are in that day
-             */
-            public int ShiftsPerDay(int time)
-            {
-                //There are 1440 minutes in a day, use integer division to find it
-                int day = time / 1440;
-                
-                
-            }
-            
             public string GetName()
             {
                 return name;
             }
-            
-            
         }
 
         public class Shift
         {
-            public Employee[] WorkingEmployees;
-            public int NumberOfEmployees;
-            public int StartTime; //Start Time and End Time are measured in minutes after Monday Midnight 
+            //Start Time and End Time are measured in minutes after Monday Midnight 
+            public int StartTime; 
             public int EndTime;
-
+            //TODO: Add Shift Type
+            private int MaxCons;
+            
             public Shift(int start, int end, int max)
             {
                 this.StartTime = start;
                 this.EndTime = end;
-                this.WorkingEmployees = new Employee[max];
-                this.NumberOfEmployees = 0;
+                MaxCons = max;
             }
             public override string ToString()
             {
-                string result = "Start: " + StartTime + "\n End: " + EndTime + "\n Employees Working: ";
-                foreach (Employee employee in WorkingEmployees)
-                {
-                    if (employee != null)
-                    {
-                        result += employee.GetName() + ", ";
-                    }
-                }
-
-                return result;
-            }
-
-            public void AddEmployee(Employee employee)
-            {
-                if (NumberOfEmployees <= WorkingEmployees.Length)
-                {
-                    WorkingEmployees[NumberOfEmployees++] = employee;
-                    employee.AddShift(this);
-                }
-                else
-                {
-                    throw new Exception("Shift is full");
-                }
+                return "Start: " + StartTime + "\n End: " + EndTime;
             }
 
             public int WorkTime()
             {
                 return EndTime - StartTime;
+            }
+
+            public int MaxEmployees()
+            {
+                return MaxCons;
             }
         }
         
@@ -231,7 +131,9 @@ namespace Scheduling_Library
             return shifts;
         }
         
-        //takes a file, and populates the employees list
+        /**
+         * Takes a properly formatted TXT file, and populates
+         */
         public List<Employee> PopulateEmployees(string filename)
         {
             string[] Lines = File.ReadAllLines(filename);

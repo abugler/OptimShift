@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/Scheduling Library.csproj": {}
+  },
+  "projects": {
+    "/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/Scheduling Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/Scheduling Library.csproj",
+        "projectName": "Scheduling Library",
+        "projectPath": "/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/Scheduling Library.csproj",
+        "packagesPath": "/home/andreas/.nuget/packages/",
+        "outputPath": "/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/andreas/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Google.OrTools": {
+              "target": "Package",
+              "version": "[7.1.6720, )"
+            },
+            "Google.OrTools.runtime.linux-x64": {
+              "target": "Package",
+              "version": "[7.1.6720, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.12, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
