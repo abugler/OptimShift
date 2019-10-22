@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/andreas/Documents/OptimShift/OptimShift/LibraryTesting/LibraryTesting.csproj",
-    "projectName": "LibraryTesting",
-    "projectPath": "/home/andreas/Documents/OptimShift/OptimShift/LibraryTesting/LibraryTesting.csproj",
-    "outputPath": "/home/andreas/Documents/OptimShift/OptimShift/LibraryTesting/obj/",
+    "projectUniqueName": "/home/andreas/Documents/OptimShift/SchedulingLibrary/SchedulingLibrary/SchedulingLibrary.csproj",
+    "projectName": "SchedulingLibrary",
+    "projectPath": "/home/andreas/Documents/OptimShift/SchedulingLibrary/SchedulingLibrary/SchedulingLibrary.csproj",
+    "outputPath": "/home/andreas/Documents/OptimShift/SchedulingLibrary/SchedulingLibrary/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -29,9 +29,17 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
-        "Microsoft.NET.Test.Sdk": {
+        "Google.OrTools": {
           "target": "Package",
-          "version": "[15.9.0, )"
+          "version": "[7.1.6720, )"
+        },
+        "Google.OrTools.runtime.linux-x64": {
+          "target": "Package",
+          "version": "[7.1.6720, )"
+        },
+        "HtmlAgilityPack": {
+          "target": "Package",
+          "version": "[1.11.12, )"
         },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
@@ -39,13 +47,9 @@
           "version": "[2.2.0, )",
           "autoReferenced": true
         },
-        "NUnit3TestAdapter": {
+        "System.Net.Http": {
           "target": "Package",
-          "version": "[3.11.0, )"
-        },
-        "nunit": {
-          "target": "Package",
-          "version": "[3.11.0, )"
+          "version": "[4.3.4, )"
         }
       },
       "imports": [

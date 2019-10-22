@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LibraryTesting")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SchedulingLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("LibraryTesting")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LibraryTesting")]
+[assembly: System.Reflection.AssemblyProductAttribute("SchedulingLibrary")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SchedulingLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

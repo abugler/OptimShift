@@ -14,7 +14,6 @@
       <e p="TestingLibrary" t="IncludeRecursive">
         <e p="BFSTesting.cs" t="Include" />
         <e p="FunctionalityTesting.cs" t="Include" />
-        <e p="ScraperTesting.cs" t="Include" />
         <e p="TestingLibrary.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -27,18 +26,18 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary" t="IncludeRecursive">
       <e p="SchedulerSolver.cs" t="Include" />
       <e p="SchedulerSolverGenetic.cs" t="Include" />
       <e p="SchedulerSolverGreedy.cs" t="Include" />
-      <e p="Scheduling Library.csproj" t="IncludeRecursive" />
-      <e p="Scraper.cs" t="Include" />
+      <e p="SchedulingLibrary.csproj" t="IncludeRecursive" />
       <e p="Workweek.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="main.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp2.2" t="Include">
-            <e p="Scheduling Library.AssemblyInfo.cs" t="Include" />
+            <e p="SchedulingLibrary.AssemblyInfo.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -156,7 +156,7 @@ namespace Scheduling_Library
                 currentLine++;
                 while (currentLine < Lines.Length && Lines[currentLine].Length != 0)
                 {
-                    string[] TimeAndStatus = Lines[currentLine].Split(' ');
+                    string[] TimeAndStatus = Lines[currentLine].Split('\t');
                     NewEmployee.UpdateAvailability(Int32.Parse(TimeAndStatus[1]),
                         Int32.Parse(TimeAndStatus[0]));
                     currentLine++;

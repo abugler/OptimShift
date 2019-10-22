@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf828113-6162-4fca-a57f-47348200dd05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestingLibrary/BFSTesting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingLibrary/ScraperTesting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGreedy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Scraper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/bin/Debug/netcoreapp2.2/SchedulingLibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/bin/Debug/netcoreapp2.2/SchedulingLibrary.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/main.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OptimShift/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OptimShift/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OptimShift/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OptimShift/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OptimShift/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OptimShift/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/LibraryTesting.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/obj/Debug/netcoreapp2.2/LibraryTesting.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/obj/Debug/netcoreapp2.2/LibraryTesting.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/obj/LibraryTesting.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/obj/LibraryTesting.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/obj/LibraryTesting.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryTesting/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OptimShift.sln" beforeDir="false" afterPath="$PROJECT_DIR$/OptimShift.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingLibrary/BFSTesting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/BFSTesting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/TestingLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/TestingLibrary.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/Scheduling Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/Scheduling Library.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/Scheduling Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/Scheduling Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/TestingLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.assets.cache" afterDir="false" />
@@ -20,24 +33,34 @@
       <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/Debug/netcoreapp2.2/TestingLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/TestingLibrary.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/TestingLibrary.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/TestingLibrary.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/TestingLibrary.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/TestingLibrary.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/TestingLibrary.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingLibrary/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Scheduling Library.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Scheduling Library.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulerSolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGenetic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulerSolverGenetic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGreedy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulerSolverGreedy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Scheduling Library.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulingLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/Workweek.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/bin/Debug/netcoreapp2.2/Scheduling Library.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/bin/Debug/netcoreapp2.2/Scheduling Library.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Debug/netcoreapp2.2/Scheduling Library.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Debug/netcoreapp2.2/Scheduling Library.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Scheduling Library.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Scheduling Library.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Scheduling Library.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/Scheduling Library.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/Scheduling Library.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scraper/AVAILABILITY_2019-09-14 17:10:16.111088.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestingLibrary/bin/Debug/netcoreapp2.2/AVAILABILITY_2019-09-16 20:45:50.086897.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scraper/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Scraper/ghostdriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scraper/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Scraper/scraper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,20 +94,18 @@
     <setting file="file://$PROJECT_DIR$/TestingLibrary/BFSTesting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.0.1/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.Program.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6423137-A5BF-4F2C-B422-A913EA318D87/b5/32ee4fa4/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestingLibrary/ScraperTesting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57010887-BA3F-46F4-8547-B67751974C6D/13/d93485dc/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGenetic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibraryTesting/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulerSolverGenetic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulerSolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AC1340E1-462B-4480-AC43-8E76805462FB/57/7224dbca/MethodInfoExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/89B05A7F-5B87-4620-9130-61B259D85E7F/19/cf6afeb7/Uri.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57010887-BA3F-46F4-8547-B67751974C6D/e7/ac40d8bb/EventSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Scraper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C46AE1D-6A61-4930-9A91-34D41BD0AD56/53/4ab6ae19/WebScraper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGreedy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/Workweek.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulerSolverGreedy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6423137-A5BF-4F2C-B422-A913EA318D87/d7/9957d75e/HttpRequestMessage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.0.1/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/main.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,13 +115,15 @@
         <option value="$PROJECT_DIR$/TestingLibrary/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/TestingLibrary/FunctionalityTesting.cs" />
         <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Solver.cs" />
-        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" />
-        <option value="$PROJECT_DIR$/TestingLibrary/BFSTesting.cs" />
         <option value="$PROJECT_DIR$/TestingLibrary/ScraperTesting.cs" />
         <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Scraper.cs" />
         <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" />
-        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGenetic.cs" />
         <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGreedy.cs" />
+        <option value="$PROJECT_DIR$/TestingLibrary/BFSTesting.cs" />
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGenetic.cs" />
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" />
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/main.cs" />
+        <option value="$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/main.cs" />
       </list>
     </option>
   </component>
@@ -185,6 +208,9 @@
       <workItem from="1567687102429" duration="1971000" />
       <workItem from="1567727989687" duration="7000" />
       <workItem from="1567802103560" duration="466000" />
+      <workItem from="1568684956398" duration="1349000" />
+      <workItem from="1570075378796" duration="1798000" />
+      <workItem from="1571781004815" duration="795000" />
     </task>
     <servers />
   </component>
@@ -291,7 +317,7 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGreedy.cs</url>
+          <url>file://$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/SchedulerSolverGreedy.cs</url>
           <line>112</line>
           <properties documentPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" initialLine="116">
             <startOffsets>
@@ -304,17 +330,17 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolverGreedy.cs</url>
-          <line>91</line>
-          <properties documentPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/SchedulerSolver.cs" initialLine="95">
+          <url>file://$PROJECT_DIR$/../SchedulingLibrary/SchedulingLibrary/Workweek.cs</url>
+          <line>151</line>
+          <properties documentPath="$PROJECT_DIR$/../SchedulingLibrary/Scheduling Library/Workweek.cs" initialLine="151">
             <startOffsets>
-              <option value="-1" />
+              <option value="5069" />
             </startOffsets>
             <endOffsets>
-              <option value="-1" />
+              <option value="5138" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

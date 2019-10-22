@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling Library", "..\SchedulingLibrary\Scheduling Library\Scheduling Library.csproj", "{B44AD18E-7325-4202-9719-29D0447F5FDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchedulingLibrary", "..\SchedulingLibrary\SchedulingLibrary\SchedulingLibrary.csproj", "{B44AD18E-7325-4202-9719-29D0447F5FDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingLibrary", "TestingLibrary\TestingLibrary.csproj", "{8E04D8FB-D552-4DE5-BA26-53611FEFFD9F}"
 EndProject

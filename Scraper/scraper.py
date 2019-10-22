@@ -8,14 +8,6 @@ from datetime import datetime
 
 class Scraper:
 
-    login_url = "https://whentowork.com/logins.htm"
-    input_prompt = "Please log into WhenToWork using this link: \n" + \
-                          login_url + \
-                          " \nAfter logging in, Click \"Employees\", " + \
-                          "then click on the pencil-shaped edit icon for any employee." + \
-                          "\nA popup will then appear. Click Work Time Prefs, and another popup will appear." + \
-                            "\nCopy and paste the URL of that last popup here:\n"
-
     """
     Debugging constructor
     """
@@ -29,13 +21,14 @@ class Scraper:
     def obtain_initial_pref_url(cls):
         # Ask the user to input the pref url
         # I couldn't do this automatically, W2W didn't like my post requests :(
-
-        return input("Please log into WhenToWork using this link: \n" +
-                          login_url +
-                          " \nAfter logging in, Click \"Employees\", " +
-                          "then click on the pencil-shaped edit icon for any employee." +
-                          "\nA popup will then appear. Click Work Time Prefs, and another popup will appear." +
-                            "\nCopy and paste the URL of that last popup here:\n")
+        login_url = "https://whentowork.com/logins.htm"
+        input_prompt = "Please log into WhenToWork using this link: \n" + \
+                       login_url + \
+                       " \nAfter logging in, Click \"Employees\", " + \
+                       "then click on the pencil-shaped edit icon for any employee." + \
+                       "\nA popup will then appear. Click Work Time Prefs, and another popup will appear." + \
+                       "\nCopy and paste the URL of that last popup here:\n"e oper
+        return input(input_prompt)
 
     """
     Production Constructor
@@ -158,5 +151,6 @@ class Scraper:
             print('Error during requests to {0} : {1}'.format(self.given_url, str(e)))
             return None
 
-
-
+if __name__ == '__main__':
+    s = Scraper.create_scraper()
+    s.scrape_all()

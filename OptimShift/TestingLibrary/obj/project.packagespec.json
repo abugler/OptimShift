@@ -18,8 +18,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/Scheduling Library.csproj": {
-            "projectPath": "/home/andreas/Documents/OptimShift/SchedulingLibrary/Scheduling Library/Scheduling Library.csproj"
+          "/home/andreas/Documents/OptimShift/SchedulingLibrary/SchedulingLibrary/SchedulingLibrary.csproj": {
+            "projectPath": "/home/andreas/Documents/OptimShift/SchedulingLibrary/SchedulingLibrary/SchedulingLibrary.csproj"
           }
         }
       }

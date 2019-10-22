@@ -24,6 +24,21 @@ namespace Scheduling_Library
         private const int SchedulesPerGeneration = 1000;
         public override void AssignShifts(string employeesAvailabilityFile)
         {
+            //Generate shift, by parsing a .txt file. 
+            _week = new Workweek();
+            _shifts = _week.GenerateShifts();
+            _employees = _week.PopulateEmployees(employeesAvailabilityFile); //"TestEmployees.txt"
+            
+
+        }
+
+        public class Schedule
+        {
+            private bool[,] _data;
+            private int _fitness;
+            private int _numberOfEmployees;
+            private int _numberOfShifts;
+            
             
         }
     }
